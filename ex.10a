@@ -1,0 +1,8 @@
+def cumulative_product(a):
+ p=1
+ product=[]
+ for i in a:
+  p*=1
+  product.append(p)
+ print("cumulative_product is",product)
+cumulative_product([1,2,3,4,5])
