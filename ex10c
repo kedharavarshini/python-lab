@@ -1,0 +1,6 @@
+def gcd(x,y):
+ return x if y==0 else gcd(y,x%y)
+def lcm(x,y):
+ return (x*y)//gcd(x,y)
+print("gcd is",gcd(54,24))
+print("lcm is ",lcm(54,24))
