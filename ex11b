@@ -8,8 +8,8 @@ for i in range(r1):
   a[i].insert(j,int(input("enter a value:")))
 for i in range(r1):
  for j in range(c1):
-  print(a[i][j],end="")
-  print(" ")
+  print(a[i][j],end=" ")
+ print(" ")
 r2=int(input("enter a matrix rows:"))
 c2=int(input("enter a matrix columns:"))
 b=[]
@@ -21,8 +21,8 @@ for i in range(r2):
 for i in range(r1):
  for j in range(c1):
   print(b[i][j],end="\t")
-  print("")
+ print(" ")
 for i in range(r1):
  for j in range(c1):
      print(a[i][j]+b[i][j],end=" ")
-     print("")
+ print(" ")
