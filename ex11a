@@ -1,0 +1,12 @@
+r1=int(input("enter a matrix rows:"))
+c1=int(input("enter a matrix columns:"))
+a=[]
+for i in range(r1):
+ a.append([])
+for i in range(r1):
+ for j in range(c1):
+  a[i].insert(j,int(input("enter a value:")))
+for i in range(r1):
+ for j in range(c1):
+  print(a[i][j],end="\t")
+  print("")
