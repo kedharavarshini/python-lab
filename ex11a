@@ -9,4 +9,4 @@ for i in range(r1):
 for i in range(r1):
  for j in range(c1):
   print(a[i][j],end="\t")
-  print("")
+ print("")
