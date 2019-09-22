@@ -10,8 +10,8 @@ for i in range(r1):
  for j in range(c1):
   print(a[i][j],end=" ")
  print(" ")
-r2=int(input("enter a matrix rows:"))
-c2=int(input("enter a matrix columns:"))
+r2=int(input("enter b matrix rows:"))
+c2=int(input("enter b matrix columns:"))
 b=[]
 for i in range(r2):
  b.append([])
