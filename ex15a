@@ -1,0 +1,13 @@
+def even_numbers(a):
+    status=True
+    for i in a:
+        if i%2!=0:
+            status=False
+            break
+    return status
+import unittest
+class testeven(unittest.TestCase):
+    def test_even(self):
+        self.assertEqual(True,even_numbers([10,20,30]))
+        self.assertEqual(False,even_numbers([10,13,30]))
+unittest.main()
