@@ -1,0 +1,22 @@
+class robot:
+    what="machine"
+    name="chinni"
+    version=1.0
+    speed="1THz"
+    memory="1ZB"
+    def update(cls):
+        cls.version=2.0
+        cls.speed="2THz"
+        cls.memory="2ZB"
+r=robot()
+print("Hai,I am",r.what)
+print("my name is",r.name)
+print("version",r.version)
+print("speed",r.speed)
+print("memory",r.memory)
+r.update()
+print("Hai,I am",r.what)
+print("my name is",r.name)
+print("version",r.version)
+print("speed",r.speed)
+print("memory",r.memory)
