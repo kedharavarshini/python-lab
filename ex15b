@@ -1,0 +1,11 @@
+def rev_string(str):
+    str2=""
+    for i in range(len(str)-1,-1,-1):
+        str2=str2+str[i]
+    return str2
+import unittest
+class testrev(unittest.TestCase):
+    def test_revs(self):
+        self.assertEqual("olleh",rev_string("hello"))
+        self.assertEqual("maytas",rev_string("satyam"))
+unittest.main()
