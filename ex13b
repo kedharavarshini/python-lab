@@ -1,0 +1,21 @@
+class ATM:
+    def __init__(self):
+        self.balance=0
+        print("new account is created")
+    def deposit(self):
+        amount=int(input("enter amount to deposit:"))
+        self.balance=self.balance+amount
+        print("new balance is",self.balance)
+    def withdraw(self):
+        amount=int(input("enter the amount to withdraw:"))
+        if self.balance<amount:
+            print("insufficient balance")
+        else:
+            self.balance=self.balance-amount
+            print("new balance is",self.balance)
+    def enquiry(self):
+        print("tne balance is",self.balance)
+a=ATM()
+a.deposit()
+a.withdraw()
+a.enquiry()
